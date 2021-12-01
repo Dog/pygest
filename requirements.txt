@@ -1,0 +1,18 @@
+# We pin tooling because its an environment we control
+# By contrast tests must pass against the latest versions of dependencies
+
+-e .
+
+autoflake
+black
+coverage
+cryptography
+flake8
+flake8-bugbear
+flake8-pie
+isort
+mypy
+types-certifi
+pytest
+pytest-freezegun
+respx
